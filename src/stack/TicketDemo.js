@@ -92,6 +92,21 @@ const styles = css`
       left: 50%;
       transform: translate(-50%, -50%) rotate(45deg);
     }
+    :after {
+      display: block;
+      content: " ";
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      border: 5px solid #fff;
+      border-bottom-color: #fff;
+      border-right-color: hsl(216, 100%, 96%);
+      bottom: -40px;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
     .abd {
       position: absolute;
       width: 0;
